@@ -26,8 +26,13 @@ QuikMart
 │── babel.config.js        # Babel config
 │── metro.config.js        # Metro bundler config
 │── README.md              # Project documentation
+
+
+
 📂 Detailed Explanation
+
 1️⃣ src/assets/ (Static Files)
+
 src/assets/
 ├── images/
 │   ├── logo.png
@@ -36,12 +41,18 @@ src/assets/
 │   ├── Roboto-Regular.ttf
 ├── icons/
 │   ├── cart.png
+
+
 2️⃣ src/components/ (Reusable UI Components)
+
+
 src/components/
 ├── CustomButton.tsx
 ├── InputField.tsx
 ├── ProductCard.tsx
+
 3️⃣ src/screens/ (Screens for Navigation)
+
 src/screens/
 ├── HomeScreen/
 │   ├── index.tsx
@@ -49,23 +60,34 @@ src/screens/
 ├── CartScreen/
 │   ├── index.tsx
 │   ├── styles.ts
+
+
 4️⃣ src/navigation/ (Navigation Logic)
+
 src/navigation/
 ├── AppNavigator.tsx    # Main navigator
 ├── AuthNavigator.tsx   # Authentication flows
 ├── TabNavigator.tsx    # Bottom tab navigation
+
 5️⃣ src/redux/ (Redux State Management) if we use redux/redux toolkit
+
 src/redux/
 ├── store.ts
 ├── slices/
 │   ├── authSlice.ts
 │   ├── cartSlice.ts
 │   ├── productSlice.ts
+
 6️⃣ src/hooks/ (Custom Hooks)
+
 7️⃣ src/utils/ (Helper Functions)
+
 8️⃣ src/services/ (API Calls & Async Storage)
+
 9️⃣ src/context/(am not using context if use then create it)
+
 🔟 src/config/ (App Configurations)
+
 src/config/
 ├── theme.ts
 ├── constants.ts
