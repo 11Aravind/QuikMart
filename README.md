@@ -1,5 +1,3 @@
-Here's the updated README with the **Detailed Explanation** section removed:
-
 ---
 
 # ![React Native Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)  
@@ -83,4 +81,3 @@ Here's the updated README with the **Detailed Explanation** section removed:
 
 ---
 
-Let me know if you'd like further adjustments!
